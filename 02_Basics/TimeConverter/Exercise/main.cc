@@ -30,7 +30,7 @@ int main()
     std::cout << "hours3: " << hours3 << '\n';
 
     test_cases(); // This should not fail!
-
+    int r = 0;
     return 0;
 }
 

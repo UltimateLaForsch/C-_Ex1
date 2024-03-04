@@ -16,6 +16,7 @@ int main()
     std::cin >> in_text;
 
     std::cout << "to_upper_case: " << to_upper_case(in_text) << '\n';
+    std::cout << "to_upper_case_v2: " << to_upper_case_v2(in_text) << '\n';
     std::cout << "to_lower_case: " << to_lower_case(in_text) << '\n';
     std::cout << "string_length: " << string_length(in_text) << '\n';
     std::cout << std::boolalpha;

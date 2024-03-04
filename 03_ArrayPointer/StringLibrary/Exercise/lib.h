@@ -21,7 +21,7 @@ char to_lower_case(const char character);
 /** END PREV FUNCS **/
 
 char *to_upper_case(char *text);
-
+char *to_upper_case_v2(char *text);
 char *to_lower_case(char *text);
 
 std::size_t string_length(const char *text);

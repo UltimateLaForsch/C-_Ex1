@@ -9,8 +9,8 @@ void test_cases();
 
 int main()
 {
-    std::size_t length = 6;
-    std::int32_t array[]{1, 1, 2, 3, 3, 4};
+    std::size_t length = 11;
+    std::int32_t array[]{1, 2, 5, 1, 2, 5, 4,2, 3, 3, 4};
 
     remove_duplicates(array, length);
     print_array(array, length);
